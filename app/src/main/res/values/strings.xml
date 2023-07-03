@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Sports</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="terms">
+        "#If the participant will not be present on the spot at time then he/she will be eliminated.\n\n#If the event get cancelled due to any reason then the registration amount will be refunded.\n\n#If any participant find doing unfair means then he/she will be eliminated immediately.\n\n#Participant need to pay the registration fee during online registration or 2 hours before the game start.
+"
+    </string>
+</resources>

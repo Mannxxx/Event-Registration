@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sports4"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".indoorgames">
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:fitsSystemWindows="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/carrombutton"
+        android:id="@+id/ca"/>
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/chessbutton"
+        android:scaleType="fitCenter"
+        android:id="@+id/ch"/>
+
+    <ImageButton
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/tabletennnisbutton"
+        android:scaleType="fitCenter"
+        android:id="@+id/tt"/>
+
+
+
+</LinearLayout>

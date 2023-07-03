@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sports4"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Main2Activity">
+
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/indoorlogo"
+        android:layout_margin="30dp"
+        android:id="@+id/ind"/>
+    <View
+        android:layout_width="200dp"
+        android:layout_height="1dp"
+        android:background="#000"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30dp"
+        android:background="@drawable/outdoorlogo"
+        android:id="@+id/out"/>
+    <TextView
+        android:id="@+id/terms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terms and Conditions"
+        android:clickable="true"
+        android:textColor="#24a19c"/>
+</LinearLayout>
