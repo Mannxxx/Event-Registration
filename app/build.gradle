@@ -3,7 +3,6 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 28
-    buildToolsVersion "30.0.2"
     defaultConfig {
         applicationId "com.example.sports"
         minSdkVersion 15
@@ -18,11 +17,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
-    lintOptions{ 
-    checkReleaseBuilds false
-    }
-    lintOptions{ 
-    abortOnError false
+    namespace 'com.example.sports'
+    lint {
+        abortOnError false
+        checkReleaseBuilds false
     }
 }
 
